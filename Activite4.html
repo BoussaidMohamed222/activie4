@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Projet TIC</title>
+  <style>
+   
+    .image-container {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="image-container">
+    <img src="C:\Users\bouss\OneDrive\سطح المكتب\New folder\download.jpg" alt="Image" width="200" height="200">
+  </div>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #363434;
+    }
+    
+    h1 {
+      text-align: center;
+      color: #ffffff;
+      margin-bottom: 40px;
+    }
+    
+    h2 {
+      color: #fefefe;
+      margin-top: 40px;
+    }
+    
+    .button {
+      background-color: #3552b0;
+      color: #ffffff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+      margin-top: 10px;
+    }
+    
+    .button:hover {
+      background-color: #1138f9;
+      transform: scale(1.1);
+    }
+    
+    .text-section {
+      background-color: #ffffff;
+      padding: 20px;
+      margin-top: 10px;
+      border-radius: 4px;
+      display: none;
+      font-size: 14px;
+      line-height: 1.6;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .text-section p {
+      margin: 0;
+    }
+  </style>
+  <script>
+    function toggleText(id) {
+      var text = document.getElementById("text-" + id);
+      if (text.style.display === "none" || text.style.display === "") {
+        text.style.display = "block";
+      } else {
+        text.style.display = "none";
+      }
+    }
+  </script>
+</head>
+<body>
+  
+  
+    <p><font color="#ffffff">
+      <ul>
+        <li><strong>Matricule:222231648606</strong> | <strong>Nom:</strong> Boussaid   |   <strong>Prénom:</strong> Mohamed | <strong>Spécialité:</strong> Informatique | <strong>Section:</strong> 4 | <strong>Partie:</strong> 1 </li>
+        <div class="text-section" id="text-666">
+          
+        </div>
+        
+        <li><strong>Matricule:222231609616</strong> | <strong>Nom:</strong> Belguessab | <strong>Prénom:</strong> Nihad | <strong>Spécialité:</strong> Informatique | <strong>Section:</strong> 4 | <strong>Partie:</strong> 1 </li>
+        <div class="text-section" id="text-65">
+        
+        </div>
+  <li><strong>Matricule:222231353702</strong> | <strong>Nom:</strong> Drinali | <strong>Prénom:</strong> Samy Nazim | <strong>Spécialité:</strong> Informatique | <strong>Section:</strong> 4 | <strong>Partie:</strong> 2 </li>
+        <div class="text-section" id="text-45">
+          
+        </div>
+        
+        <li><strong>Matricule:222231523706</strong> | <strong>Nom:</strong> AKMOUNE | <strong>Prénom:</strong> Mehdi Rayane | <strong>Spécialité:</strong> Informatique | <strong>Section:</strong> 4 | <strong>Partie:</strong> 2 </li>
+        <div class="text-section" id="text-644">
+        
+        </div>
+  <li><strong>Matricule:222231384205</strong> | <strong>Nom:</strong> SALEH MOHAMMED MAHMOUD | <strong>Prénom:</strong> ARAFAT | <strong>Spécialité:</strong> Informatique | <strong>Section:</strong> 4 | <strong>Partie:</strong> 3 </li>
+        <div class="text-section" id="text-53">
+          
+        </div>
+        
+        <li><strong>Matricule:212231455919</strong> | <strong>Nom:</strong> MEROUANI | <strong>Prénom:</strong> Rabie | <strong>Spécialité:</strong> Informatique | <strong>Section:</strong> 4 | <strong>Partie:</strong> 3 </li>
+        <div class="text-section" id="text-34">
+        
+        </div>
+  <li><strong>Matricule:222231648217</strong> | <strong>Nom:</strong> Soukeur | <strong>Prénom:</strong> Imad chems eddine  | <strong>Spécialité:</strong> Informatique | <strong>Section:</strong> 4 | <strong>Partie:</strong> 4 </li>
+        <div class="text-section" id="text-888">
+          
+        </div>
+        
+        <li><strong>Matricule:222231354718</strong> | <strong>Nom:</strong> CHERIEF | <strong>Prénom:</strong> Maroua | <strong>Spécialité:</strong> Informatique | <strong>Section:</strong> 4 | <strong>Partie:</strong> 4 </li>
+        <div class="text-section" id="text-88">
+        
+        </div>
+  <li><strong>Matricule:222231389218</strong> | <strong>Nom:</strong> Gueracha | <strong>Prénom:</strong> Ramzi Wassim  | <strong>Spécialité:</strong> Informatique | <strong>Section:</strong> 4 | <strong>Partie:</strong> 5 </li>
+        <div class="text-section" id="text-8">
+          
+        </div>
+        
+        <li><strong>Matricule:222231609214</strong> | <strong>Nom:</strong> Redjah | <strong>Prénom:</strong> yousra sarah | <strong>Spécialité:</strong> Informatique | <strong>Section:</strong> 4 | <strong>Partie:</strong> 5 </li>
+        <div class="text-section" id="text-7">
+        
+        </div>
+    </ul>
+  </font>
+    </p>
+  
+  
+  
+  <h2>Partie 1: Résume du chapitre 1</h2>
+<div>
+  <button class="button" onclick="toggleText(1)">&#9660;</button>
+</div>
+<div class="text-section" id="text-1">
+  <p>
+    <strong>Chapitre 1: Introduction</strong><br><br>
+    Le chapitre 1 introduit les concepts des techniques de l'information et de la communication (TIC). Il aborde les points suivants:
+    <br><br>
+    <ul>
+      <li>Les techniques de l'information et de la communication (TIC) regroupent tous les outils utilisés pour manipuler, traiter, produire, transmettre et échanger des informations. Les TIC sont nées de la convergence de l'informatique, des télécommunications, de l'électronique et de l'audiovisuel.</li>
+      <li>Les TIC sont présentées dans trois grandes catégories:
+        <br>
+        a. La téléinformatique: échange d'informations numériques entre plusieurs systèmes informatiques.
+        <br>
+        b. Les télécommunications: systèmes de communication qui ne sont pas nécessairement informatiques.
+        <br>
+        c. L'électronique: composants et équipements grand public tels que les télévisions et les lecteurs DVD.
+      </li>
+      <li>Les composants des TIC comprennent à la fois des éléments matériels et logiciels. Les composants matériels incluent des appareils tels que les ordinateurs, les téléphones portables, les tablettes, etc. Les composants logiciels comprennent les systèmes d'exploitation, les logiciels d'application et les réseaux.</li>
+      <li>Les caractéristiques des TIC incluent la rapidité, la décentralisation du pouvoir, un meilleur accès à l'information, la rationalité, la mondialisation, la répartition et l'intensité.</li>
+      <li>Une introduction aux techniques de communication est donnée, en mettant en évidence les objectifs de communication (cognitif, affectif, comportemental), les composants d'un système de communication (émetteur, récepteur, message, médias, fonctions) et les types de communication (interpersonnelle, de groupe, de masse).</li>
+      <li>Les médias et le multimédia sont également abordés. Les médias sont des moyens impersonnels de diffusion d'informations, tels que la presse, la radio, la télévision et Internet. Le multimédia se réfère à l'utilisation simultanée et interactive de différents modes de représentation de l'information, tels que le texte, le son, les images fixes ou animées.</li>
+    </ul>
+    
+  </p>
+</div>
+
+  
+<h2>Partie 2: Résume du chapitre 2</h2>
+<div>
+  <button class="button" onclick="toggleText(2)">&#9660;</button>
+</div>
+<div class="text-section" id="text-2">
+  <p>
+    <strong>Chapitre 2: Les réseaux informatiques
+    </strong><br><br>
+    Le chapitre 2 traite des réseaux informatiques et aborde les points suivants :</p>
+  <ul>
+    <li>Réseau (informatique) Network : Il s'agit d'un ensemble d'ordinateurs et de terminaux connectés entre eux dans un certain domaine géographique afin d'échanger des informations numériques selon des règles définies. La mise en réseau consiste à relier des ordinateurs pour qu'ils puissent partager des ressources.</li>
+    <li>Les caractéristiques de base d'un réseau : Les principales caractéristiques d'un réseau incluent sa topologie (physique et logique), le débit (quantité de données transmises par seconde), la distance maximale de transmission et le nombre maximum de nœuds interconnectés.</li>
+    <li>Terminologies en réseau : Quelques termes importants liés aux réseaux sont expliqués, tels que la station de travail (machine capable d'envoyer des données vers les réseaux), le nœud (extrémité d'une connexion), le serveur (entité dépositaire d'une fonction spécifique), et le paquet (plus petite unité d'information transmise sur le réseau).</li>
+    <li>Éléments d'un réseau : Les composants essentiels d'un réseau comprennent les ordinateurs équipés de cartes de communication, les logiciels (navigateur, client de messagerie, serveur web, etc.), les supports de connexion (câbles, lignes téléphoniques, etc.) et les équipements d'interconnexion (répéteur, concentrateur, commutateur, routeur, etc.).</li>
+    <li>Classification des réseaux : Les réseaux peuvent être classifiés en fonction de différents critères. Par exemple, selon leur portée, on distingue les réseaux locaux (LAN), les réseaux métropolitains (MAN) et les réseaux étendus (WAN). Selon leur utilisation, on trouve les intranets, les extranets et Internet. Selon les supports de connexion, on différencie les réseaux filaires (câbles coaxiaux, paires torsadées, fibre optique) et les réseaux sans fil (ondes radios, infrarouges, satellites, Bluetooth). Enfin, on mentionne également les réseaux maillés (utilisés notamment dans les réseaux WAN).</li>
+    <li>Le type de topologie : Différents types de topologies sont présentés, tels que le réseau en bus (machines reliées par un câble coaxial), le réseau en étoile (toutes les stations connectées à un nœud central), le réseau en anneau (stations situées sur une boucle et communiquant tour à tour) et la topologie maillée (utilisant plusieurs chemins de transfert entre les nœuds).</li>
+  </ul>
+  <p>Ces concepts et terminologies permettent de comprendre les fondements des réseaux informatiques et les différentes structures qu'ils peuvent prendre.</p>
+</div>
+  
+<h2>Partie 3: Résume du chapitre 3</h2>
+<div>
+  
+  <button class="button" onclick="toggleText(3)">&#9660;</button>
+</div>
+
+
+<div class="text-section" id="text-3">
+  <p>
+    <strong>Chapitre 3: Le modèle OSI
+    </strong><br><br>
+    Le chapitre 3 aborde les points suivants :</p>
+  <ul>
+    <li>Le chapitre 3 porte sur le modèle OSI, les composants matériels d'un réseau informatique, le modèle TCP/IP et l'adressage IP.</li>
+    <li>Il commence par présenter les composants matériels d'un réseau informatique, tels que les cartes réseau (NIC), qui permettent la connexion d'un ordinateur à un réseau, et les switches et hubs, utilisés pour connecter plusieurs appareils sur un réseau local.</li>
+    <li>Ensuite, le chapitre aborde le modèle OSI (Open Systems Interconnection), qui divise les communications en sept couches distinctes. Chaque couche a des fonctions spécifiques liées à la communication de données entre les appareils du réseau. Les sept couches du modèle OSI sont la couche physique, la couche liaison de données, la couche réseau, la couche transport, la couche session, la couche présentation et la couche application. Bien que le modèle OSI ne soit pas largement utilisé dans les protocoles de communication modernes, il reste utile pour comprendre les principes fondamentaux de la communication en réseau.</li>
+    <li>Ensuite, le modèle TCP/IP est présenté. Contrairement au modèle OSI, qui a sept couches, le modèle TCP/IP a quatre couches principales : la couche liaison de données, la couche réseau, la couche transport et la couche application. Le modèle TCP/IP est utilisé dans la conception et la mise en œuvre des réseaux informatiques modernes, et il est basé sur des protocoles tels que IP, TCP et UDP.</li>
+    <li>Le chapitre se termine en abordant l'adressage IP, qui permet d'identifier de manière unique chaque ordinateur dans un réseau. Il explique les deux types d'adressage IP, à savoir l'adressage IPv4 et l'adressage IPv6. Il décrit également les différentes parties d'une adresse IPv4, telles que l'adresse réseau, l'adresse de diffusion et l'adresse hôte. Il mentionne également l'utilisation du masque de réseau et de sous-réseaux.</li>
+    <li>En résumé, le chapitre 3 donne un aperçu des composants matériels d'un réseau informatique, présente les modèles OSI et TCP/IP, et explique les bases de l'adressage IP.</li>
+  </ul>
+</div>
+  
+<h2>Partie 4: Résume du chapitre 4</h2>
+<div>
+  <button class="button" onclick="toggleText(4)">&#9660;</button>
+</div>
+<div class="text-section" id="text-4">
+  
+  <p>
+    <strong>Chapitre 4: Internet et Web
+    </strong><br><br>
+    </p>
+    
+    
+      Le quatrième chapitre du livre aborde les concepts fondamentaux d'Internet et du Web. Voici un résumé des principaux points abordés :
+      
+      <ul>
+        <li>Introduction: Le World Wide Web (WWW) est un système hypertexte public qui fonctionne sur Internet. Il permet de consulter des pages accessibles sur des sites web à l'aide d'un navigateur. Le Web est une application spécifique d'Internet et a été inventé par Tim Berners-Lee et Robert Cailliau. Internet est un support de communication général, tandis que le Web représente une partie des contenus qui circulent sur Internet.</li>
+        
+        <li>
+          Aspects techniques du Web:
+          <ul>
+            <li>a) URL (Uniform Resource Locator) : Les URL sont des liens hypertexte qui permettent d'accéder à des ressources situées sur des serveurs via Internet. Elles contiennent l'adresse du serveur et l'adresse de la page sur le serveur.</li>
+            <li>b) HTTP (Hypertext Transfer Protocol) : Il s'agit d'un protocole de niveau applicatif utilisé pour le transfert de données sur le Web. Il fonctionne selon le paradigme client-serveur et ne conserve pas l'état des transactions précédentes.</li>
+            <li>c) HTML (Hypertext Markup Language) : C'est un langage de description utilisé pour créer des pages web. Il permet d'inclure du texte, des images, des liens hypertexte et d'autres objets multimédias. Le HTML est un langage de programmation déclaratif.</li>
+          </ul>
+        </li>
+        <li>
+          Page web et site web:
+          <ul>
+            <li>Une page web est un document multimédia composé d'images, de textes, de liens et d'autres éléments interactifs. Elle est décrite élément par élément à l'aide du langage de description HTML (ou XHTML ou HTML5) et est stockée dans un fichier avec une extension .html. Une page web est interprétée et affichée par un navigateur, et elle est accessible sur Internet via une adresse URL.</li>
+            <li>Un site web est un regroupement de pages web liées entre elles par des liens hypertextes. Il est structuré sous forme d'arborescence de dossiers et de fichiers, et il peut être créé et hébergé sur un serveur.</li>
+          </ul>
+        </li>
+        <li>
+          Création d'une page web HTML:
+              <ul>
+                <li>La création d'une page web en HTML nécessite l'utilisation d'un éditeur de pages web, tel que Dreamweaver, ou tout simplement un éditeur de texte comme Bloc-notes. Le langage HTML utilise des balises pour structurer le contenu d'une page. Les balises de base comprennent &lt;html&gt;, &lt;head&gt;, &lt;title&gt; et &lt;body&gt;. Les titres et les paragraphes sont définis à l'aide des balises &lt;h1&gt; à &lt;h6&gt; et &lt;p&gt;. Un exemple de fichier HTML est donné pour illustrer la structure de base d'une page web.</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+            
+            
+            
+            
+            
+            
+  
+        <h2>Partie 5: Résume du chapitre 5</h2>
+        <div>
+          <button class="button" onclick="toggleText(5)">&#9660;</button>
+        </div>
+        <div class="text-section" id="text-5">
+          <p>
+            <strong>Chapitre 5: Système de Gestion de Version
+            </strong><br><br>
+            </p>
+          
+            
+            Le chapitre 5 du livre aborde le thème du système de gestion de version, en mettant l'accent sur Git, l'un des logiciels de gestion de version les plus populaires. Voici un résumé des points clés abordés dans ce chapitre :
+            
+        <ul>
+        
+          <li>Introduction : Le chapitre commence par expliquer ce qu'est Git et pourquoi les systèmes de gestion de version sont importants de nos jours.</li>
+          <li>Fonctionnement de Git : Git est un logiciel de versioning créé par Linus Torvalds en 2005. Il permet de conserver un historique des modifications effectuées sur un projet, ce qui facilite la gestion de projets et le travail en équipe.</li>
+          <li>Deux modèles de logiciels de gestion de version : Les logiciels de gestion de version peuvent être de deux types : centralisés ou décentralisés. Git utilise le modèle décentralisé, ce qui offre plus de flexibilité et de sécurité.</li>
+          <li>Qu'est-ce que GitHub ? GitHub est un service en ligne qui permet d'héberger des dépôts Git. Il s'agit du plus grand hébergeur de dépôts Git au monde.</li>
+          <li>Utilisation de Git : Git peut être utilisé en ligne de commande, en console ou via une interface graphique. Dans le livre, l'accent est mis sur l'utilisation en ligne de commande.</li>
+          <li>Installation de Git : Le chapitre explique comment installer Git en téléchargeant la dernière version depuis le site officiel.</li>
+          <li>Paramétrage de Git : Une fois Git installé, il est nécessaire de le configurer en fournissant un nom d'utilisateur et une adresse e-mail.</li>
+          <li>Démarrer un dépôt Git : Git utilise des dépôts pour stocker les fichiers et leur historique. Il est possible de créer un dépôt en important un répertoire existant ou en clonant un dépôt déjà existant.</li>
+          <li>Gestion des informations selon Git : Git considère les données comme des instantanés ou "snapshots" de l'état du projet à un moment donné. Chaque instantané est stocké dans une base de données locale.</li>
+          <li>États des fichiers : Git suit les modifications des fichiers en les classant comme "suivis" ou "non suivis". Les fichiers suivis peuvent être modifiés, indexés ou validés.</li>
+        </ul>
+      
+      </ul>
+    
+    </div>
+</body>
+</html>
